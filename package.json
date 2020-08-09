@@ -1,0 +1,31 @@
+{
+  "name": "MiniReact",
+  "version": "1.0.0",
+  "description": "react原理认识，基于jsx简单实现的react小框架",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jen0/MiniReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jen0/MiniReact/issues"
+  },
+  "homepage": "https://github.com/Jen0/MiniReact#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
